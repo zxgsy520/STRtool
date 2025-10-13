@@ -146,7 +146,7 @@ def main():
 name:
     cut_plasmid_repeat.py: Cut the TRF repeat sequence of the plasmid
 attention:
-    cut_plasmid_repeat.py plasmid.77mer-TRF.fasta --gff plasmid.77mer-TRF.gff3 >plasmid.cut_77mer-TRF.fasta 2>log
+    cut_plasmid_repeat.py plasmid.genomic.fasta --gff plasmid.77mer-TRF.gff3 >plasmid.cut_77mer-TRF.fasta 2>log
 version: %s
 contact:  %s <%s>\
         """ % (__version__, " ".join(__author__), __email__))
